@@ -20,9 +20,10 @@ body {
 
 img {
     border-radius: 10px;
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     border: 2px solid #1ed2ff;
+    margin-left: 50px;
 }
 
 
@@ -46,6 +47,8 @@ p {
 a{
     text-decoration: none;
     color: #1ed2ff;
+    text-align: center;
+    align-items: center;
 }
 
 .apresentacao {
@@ -62,11 +65,13 @@ footer{
 
 .apresentacao__conteudo {
     width: 615px;
+   
 }
 
 .apresentacao__conteudo__titulo {
     font-size: 36;
     font-family: 'Krona One', sans-serif;
+    margin-bottom: 20px;
 }
 
 .apresentacao__conteudo__texto{
@@ -75,16 +80,25 @@ footer{
     color: #1ed2ff
 }
 
-button{
-width: 90px;
-height: 35px;
-border-radius: 10px;
-background-color: #1ed2ff;
-font-family: 'Krona One', sans-serif;
-font-size: 12px;   
-}
-
-{
-.apresentacao__links 
-    
+button {
+    width: 280px;
+    text-align: center;
+    align-items: center;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #1ed2ff;
+    font-family: 'Krona One', sans-serif;
+    font-size: 12px; 
+    padding: 21.5px 15px;
+    text-decoration: none;
+    display: flex; 
+    justify-content: center; 
+} 
+.apresentacao__links {
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
