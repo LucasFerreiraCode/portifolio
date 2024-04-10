@@ -31,9 +31,11 @@ img {
     color: #1ed2ff
 }
 
+
 .descricao {
     color: white
 }
+
 
 p {
     margin: 0px;
@@ -59,13 +61,16 @@ a{
     margin: 10%;
 }
 
+
 footer{
     color: #1ed2ff;
 }
 
+
 .apresentacao__conteudo {
     width: 615px;
-   
+
+    
 }
 
 .apresentacao__conteudo__titulo {
@@ -74,11 +79,13 @@ footer{
     margin-bottom: 20px;
 }
 
+
 .apresentacao__conteudo__texto{
     font-size: 28px;
     font-family: 'Montserrat', sans-serif;
     color: #1ed2ff
 }
+
 
 button {
     width: 280px;
@@ -93,7 +100,10 @@ button {
     text-decoration: none;
     display: flex; 
     justify-content: center; 
+    font-weight: bold;
 } 
+
+
 .apresentacao__links {
     text-align: center;
     display: flex;
