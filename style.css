@@ -87,6 +87,24 @@ footer{
 }
 
 
+.apresentacao__links {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 11px;
+}
+
+.apresentacao__links_subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+}
+
+
 button {
     width: 280px;
     text-align: center;
@@ -101,14 +119,4 @@ button {
     display: flex; 
     justify-content: center; 
     font-weight: bold;
-} 
-
-
-.apresentacao__links {
-    text-align: center;
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
 }
