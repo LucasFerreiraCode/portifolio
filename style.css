@@ -23,7 +23,7 @@ img {
     width: 350px;
     height: 350px;
     border: 2px solid #1ed2ff;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 
@@ -47,10 +47,12 @@ p {
 }
 
 a{
+    display: flex;
     text-decoration: none;
     color: #1ed2ff;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 .apresentacao {
@@ -63,7 +65,9 @@ a{
 
 
 footer{
-    color: #1ed2ff;
+    color: black;
+    background-color: #1ed2ff;
+    width: 100vh;
 }
 
 
@@ -74,15 +78,16 @@ footer{
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36;
-    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 
 .apresentacao__conteudo__texto{
-    font-size: 28px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
     color: #1ed2ff
 }
 
@@ -102,23 +107,36 @@ footer{
 .apresentacao__links_subtitulo {
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    font-size:24px;
 }
 
 
 button {
+    display: flex;
     width: 378px;
     text-align: center;
     align-items: center;
     height: 35px;
     border-radius: 8px;
-    background-color: #1ed2ff;
+    background-color: black;
     font-family: 'Krona One', sans-serif;
-    font-size: 12px; 
+    font-size: 13px; 
     padding: 21.5px 15px;
     text-decoration: none;
     display: flex; 
     justify-content: center; 
     font-weight: bold;
-    border:2px solid
+    color: #F6F6F6;
+    border:2px solid #22D4FD;
+    font-weight: 800;
+}
+
+a img {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    margin-right: 10px;
+}
+
+.minha-foto {
+    margin-left: 50px;
 }
