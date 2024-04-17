@@ -140,3 +140,7 @@ a img {
 .minha-foto {
     margin-left: 50px;
 }
+
+button:hover {
+    background: color #272727;
+}
