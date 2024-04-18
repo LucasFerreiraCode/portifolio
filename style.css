@@ -144,3 +144,7 @@ a img {
 button:hover {
     background-color: #272727;
 }
+
+p :hover {
+    background-color: #272727;
+}
