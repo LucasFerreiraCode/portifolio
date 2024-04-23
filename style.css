@@ -25,6 +25,7 @@ body {
     align-items: flex-start;
     flex-direction: row;
     gap: 50px;
+    margin-left: 18%;
 }
 
 .cabecalho {
@@ -34,7 +35,6 @@ body {
     align-items: flex-start;
     justify-content: flex-start;
     width: 100%;
-    margin-left: 28%;
 }
 
 .cabecalho__menu__link {
@@ -89,7 +89,7 @@ footer {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    padding: 8% 15%;
+    padding: 8%;
 }
 
 
