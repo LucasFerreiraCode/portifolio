@@ -13,14 +13,28 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100;
+    width: 100%;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
 
+.cabecalho__menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 50px;
+}
+
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 28%;
 }
 
 .cabecalho__menu__link {
