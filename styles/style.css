@@ -187,7 +187,7 @@ button:hover {
 .apresentacao__conteudo__texto__sobre {
     font-size: 24px;
     font-family: 'Roboto' sans-serif;
-    color: #22D4FD;
+    color: white;
     font-weight: 400;
 }
 
@@ -195,7 +195,7 @@ button:hover {
     font-size: px;
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    color: white;
+    color: #22D4FD;
 }
 
 .conteudo__sobre {
