@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+:root {
+    --cor-primaria:#000000;
+    --cor-secundaria: #F6F6FF;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +22,8 @@ body {
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho__menu {
@@ -24,7 +31,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: row;
-    gap: 50px;
+    gap: 20px;
     margin-left: 18%;
 }
 
@@ -41,20 +48,20 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 img {
     border-radius: 10px;
     width: 350px;
     height: 350px;
-    border: 2px solid #1ed2ff;
+    border: 2px solid var(--cor-terciaria);
     margin-left: 10px;
 }
 
 
 .descricao {
-    color: white
+    color: var(--cor-secundaria);
 }
 
 
@@ -73,14 +80,25 @@ p {
 a{
     display: flex;
     text-decoration: none;
-    color: #1ed2ff;
+    color: var(--cor-terciaria);
     text-align: center;
     align-items: center;
-    justify-content: center;
+}
+
+li a{
+    display: flex;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    text-align: center;
+    align-items: center;
+}
+
+li a:hover{
+    color: #22D4FD;
 }
 
 footer {
-    background-color: #1ed2ff;
+    background-color: var(--cor-terciaria);
     width: 100%;
 }
 
@@ -103,19 +121,19 @@ footer {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 
 .titulo-blog {
-    color: #1ed2ff
+    color: var(--cor-terciaria);
 }
 
 
 .apresentacao__conteudo__texto{
     font-size: 15px;
     font-family: 'Krona One', sans-serif;
-    color: white;
+    color: var(--cor-secundaria);
 }
 
 
@@ -144,7 +162,7 @@ button {
     align-items: center;
     height: 35px;
     border-radius: 8px;
-    background-color: black;
+    background-color: var(--cor-primaria);
     font-family: 'Krona One', sans-serif;
     font-size: 13px; 
     padding: 21.5px 0;
@@ -152,8 +170,8 @@ button {
     display: flex; 
     justify-content: center; 
     font-weight: bold;
-    color: #F6F6F6;
-    border:2px solid #22D4FD;
+    color: var(--cor-secundaria);
+    border:2px solid var(--cor-terciaria);
     font-weight: 800;
 }
 
@@ -170,24 +188,24 @@ a img {
 }
 
 button:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
 }
 
 .rodape {
-    color:#000000;
-    background-color: #22D4FD;
+    color:var(--cor-primaria);
+    background-color: var(--cor-terciaria);
     padding: 24px;
     justify-content: right;
 }
 
 .apresentacao__conteudo__titulo_curriculo{
-    color: white;
+    color: var(--cor-secundaria);
 }
 
 .apresentacao__conteudo__texto__sobre {
-    font-size: 24px;
-    font-family: 'Roboto' sans-serif;
-    color: white;
+    font-size: 15px;
+    font-family: 'Krona One', sans-serif;
+    color: var(--cor-secundaria);
     font-weight: 400;
 }
 
@@ -195,7 +213,7 @@ button:hover {
     font-size: px;
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .conteudo__sobre {
@@ -213,4 +231,5 @@ button:hover {
 .apresentacao__conteudo_curriculo {
     width: 615px;
     margin-left: 3%;
-}
+    margin-top: -70px;
+}    
