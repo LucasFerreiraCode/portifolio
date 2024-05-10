@@ -103,7 +103,7 @@ li a:hover {
 
 footer {
     background-color: var(--cor-terciaria);
-    width: 80%;
+    width: 100%;
 }
 
 .apresentacao {
@@ -297,6 +297,23 @@ button:hover {
     footer {
         width: 100%;
         padding: 2px;   
+    }
+
+    .minha-foto-curriculo {
+        width: 45%;
+        height: auto;
+        margin-left: 0
+        ;
+    }
+
+    .apresentacao__conteudo__texto{
+        font-size: 12px;
+        padding: 2rem;
+    }
+
+    .apresentacao__conteudo_curriculo {
+        font-size: 12px;
+        width: 80%;
     }
 }
 
