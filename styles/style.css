@@ -315,5 +315,14 @@ button:hover {
         font-size: 12px;
         width: 80%;
     }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.85rem;
+        font-family: var(--fonte-secundaria);
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: var(--cor-terciaria);
+        margin-top: 50px;
+    }
 }
 
